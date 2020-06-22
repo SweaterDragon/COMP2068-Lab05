@@ -3,7 +3,9 @@ const Superhero = require('../models/superhero');
 
 exports.index = async (req, res) => {
   try {
-    
+    res.render(`${viewPath}/index`, {
+      pageTitle: '',
+    })
   } catch (error) {
     req.flash('danger', 'There was an issue fetching the superheroes list');
     res.redirect('/');
