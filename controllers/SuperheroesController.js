@@ -52,7 +52,7 @@ exports.edit = async (req, res) => {
     const superhero = await Superhero.findById(req.params.id);
 
     res.render(`${viewPath}/edit`, {
-      pageTitle: '',
+      pageTitle: 'superhero.title',
       formData: superhero
     })
   } catch (error) {

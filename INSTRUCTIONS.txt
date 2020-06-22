@@ -5,10 +5,10 @@ OBJECTIVE:
 
 STEPS:
   1) Repair the following 5 issues
-    a) Can't run the application due to this error:
+X   a) Can't run the application due to this error:
        "Error: Cannot find module 'express'"
        Fix it so there are no missing libraries
-    b) Can't see the form in the "new" view:
+X   b) Can't see the form in the "new" view:
        - /superheroes/new
        Fix it so we can see the form
     c) When editing a superhero it always creates a new one.
